@@ -48,7 +48,7 @@ Tab:AddButton({
 
 		-- Функция для увеличения значения текста
 		local function incrementLabel()
-		    while true do
+		    while count < 50 do
 		        -- Увеличиваем значение на 1
 		        count = count + 1
 		        
